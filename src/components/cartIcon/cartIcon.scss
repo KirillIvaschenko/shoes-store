@@ -1,0 +1,22 @@
+.circle-bg-cart {
+    display: flex;
+
+    img.cart-img {
+        width: 70px;
+        height: 70px;
+    }
+    .amount-cart-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        // border: 1px solid black;
+        background-color: #AFC26E;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        font-weight: 700;
+        top: 35px;
+        right: 65px;
+    }
+}
